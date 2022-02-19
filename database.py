@@ -14,9 +14,9 @@ class DatabaseDB:
             self.conn = pg.connect(
                 host="localhost",
                 database="teyematics",
-                user="decagon",
+                user="insert username",
                 port="5432",
-                password="Adewale@dec"
+                password="insert password"
             )
             cursor = self.conn.cursor()
             print("working")
